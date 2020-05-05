@@ -1,7 +1,7 @@
 # 前端面试高频题
 前端面试高频题目，欢迎大家补充
 
-- [网络](https://github.com/character123/FontedHighFrequencyQuestions/blob/master/网络)
+- [网络](https://github.com/character123/FontedHighFrequencyQuestions/blob/master/网络.md)
 - [CSS](https://github.com/character123/FontedHighFrequencyQuestions/blob/master/CSS)
 - [javascript](https://github.com/character123/FontedHighFrequencyQuestions/blob/master/javascript)
 - [框架相关(react,vue)](https://github.com/character123/FontedHighFrequencyQuestions/blob/master/框架相关(react,vue))
