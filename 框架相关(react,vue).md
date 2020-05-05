@@ -24,8 +24,8 @@
   - [Vue中的高阶组件](https://www.jianshu.com/p/6b149189e035)
 - 纯函数介绍
 - Vue新特性了解么
- - [Vue3新特性](https://www.jianshu.com/p/fa99c7184315)
- - [Vue3对比老版vue新特性](https://www.jianshu.com/p/5be49770e2a1)
+  - [Vue3新特性](https://www.jianshu.com/p/fa99c7184315)
+  - [Vue3对比老版vue新特性](https://www.jianshu.com/p/5be49770e2a1)
 - Vue hooks介绍
   - [hooks钩子](https://www.jianshu.com/p/f1e6597b19de)
 - React新生命周期和React Fiber
