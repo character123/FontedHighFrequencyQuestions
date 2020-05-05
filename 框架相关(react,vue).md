@@ -1,18 +1,37 @@
 # 一定要了解下框架的原理和状态管理的相关原理，同时webpack也是必考点。
-
-- React介绍、优点（必考）
-- React生命周期（最新版本的也要知道）
-- 介绍diff算法（必考）
-- 介绍虚拟dom、为什么用虚拟dom
-- 组件间的通信方式（必考）
-- redux介绍和原理（必考）
+- Vue介绍、优点（必考）[参考](https://www.jianshu.com/p/d41364cd0282)
+  - vue是一种轻量的MVVM的前端框架
+  - 优点： 
+    - 响应式的数据绑定 当数据发生改变，视图可以自动更新，可以不用关心dom的操作，专心数据操作。
+    - 可组合的视图组件： 把视图按照功能切分成若干基本单元。
+- Vue生命周期（最新版本的也要知道）[参考](https://www.jianshu.com/p/672e967e201c)
+  - 8个：beforeCreated created beforeMounted mounted beforeUpdated updated beforeDestroy destroyed
+  - 开始创建、初始化数据、编译模板、挂在DOM、渲染-更新-渲染、卸载等一系列过程，我们成为Vue 实例的生命周期，钩子就是在某个阶段给你一个做某些处理的机会。
+- 介绍diff算法（必考）[参考](https://www.jianshu.com/p/22f82cc60285)
+  - 尽量不要跨层级的修改dom
+  - 设置key可以最大化的利用节点 diff的时候调用patch(node,oldNode)函数 和updateChild函数。会用到key
+  - 不要盲目相信diff的效率，在必要时可以手工优化 diff算法的虚拟dom只是在通用性，可维护性和效率之间做了平衡，不是所有情况下都有最有效率的
+- 介绍虚拟dom、为什么用虚拟dom[参考](https://www.jianshu.com/p/af0b398602bc)
+- 组件间的通信方式（必考）[参考](https://www.jianshu.com/p/c015141441f4)
+- vuex介绍和原理（必考）[参考](https://www.jianshu.com/p/6e45e6814d1c)
 - setState什么时候异步、什么时候同步、为什么
 - 事件机制
+  - [Vue基本的四个事件API](https://www.jianshu.com/p/cc677eb3ea49)
+  - [Vue详细的具体事件](https://www.jianshu.com/p/d7c1379a4c33)
 - 路由相关、几种history以及每种实现原理
+  - [Vue路由的两种模式，hash和history的原理](https://www.jianshu.com/p/e8bffc26293f)
 - 高阶组件介绍
+  - [Vue中的高阶组件](https://www.jianshu.com/p/6b149189e035)
 - 纯函数介绍
-- React新特性了解么
-- React hooks介绍
+- Vue新特性了解么
+ - [Vue3新特性](https://www.jianshu.com/p/fa99c7184315)
+ - [Vue3对比老版vue新特性](https://www.jianshu.com/p/5be49770e2a1)
+- Vue hooks介绍
+  - [hooks钩子](https://www.jianshu.com/p/f1e6597b19de)
 - React新生命周期和React Fiber
 - React和Vue对比
-- React常见优化方式
+  - [Vue和react对比](https://www.jianshu.com/p/3fbbb0bce78a)
+- Vue常见优化方式
+  - [深度解析四个方面优化Vue项目](https://www.jianshu.com/p/2b9d4d07fd10)
+- Vue的双向绑定原理
+  - [理解VUE双向数据绑定原理和实现](https://www.jianshu.com/p/e7ebb1500613)
