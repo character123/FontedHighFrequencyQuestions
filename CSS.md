@@ -3,6 +3,7 @@
 - 盒模型 [参考](https://www.jianshu.com/p/824eed8ce119)
   - 每个盒子由四个部分（或称区域）组成，其效用由它们各自的边界（Edge）所定义（原文：defined by their respective edges，可能意指容纳、包含、限制等）。与盒子的四个组成区域相对应，每个盒子有四个边界：内容边界 Content edge、内边距边界 Padding Edge、边框边界 Border Edge、外边框边界 Margin Edge。
   - 样式默认的方向的顺时针，上右下左
+  - [盒模型完美解释](https://www.jianshu.com/p/aae29283f39e)
 - positon的值，都是根据什么定位（注意下还有sticky）[参考](https://www.jianshu.com/p/a116022c6c99)
   - static  relative  absolute fixed 
   - fixed有兼容性的问题，ie6不支持
@@ -42,4 +43,4 @@ h1{ line-height:39px; / 26px1.5=39px / }
 - em和rem的区别 [参考](https://www.jianshu.com/p/da3844cedcf4)
   - rem 单位翻译为像素值是由 html 元素的字体大小决定的。 此字体大小会被浏览器中字体大小的设置影响，除非显式重写一个具体单位。
   - em 单位转为像素值，取决于他们使用的字体大小。 此字体大小受从父元素继承过来的字体大小，除非显式重写与一个具体单位。收到他所有祖先节点字体大小的影响
-  
+- [BFC(块级格式化上下文)](https://www.jianshu.com/p/66632298e355)
