@@ -9,4 +9,9 @@
 - webpack的loader和plugin的原理
   - [webpack3-loader和plugin的概念理解](https://www.jianshu.com/p/62eddbb00c8a)
 - babel的作用
-  -  将es6的语法转化成es5，兼容不支持es6的浏览器
+  - 将es6的语法转化成es5，兼容不支持es6的浏览器
+- webpack动手实践
+  - [Compiler 和 Compilation 对象](https://www.jianshu.com/p/e3d97913331a)
+  - [自己写webpack插件](https://webpack.js.org/contribute/writing-a-plugin/)
+
+
