@@ -13,5 +13,6 @@
 - webpack动手实践
   - [Compiler 和 Compilation 对象](https://www.jianshu.com/p/e3d97913331a)
   - [自己写webpack插件](https://webpack.js.org/contribute/writing-a-plugin/)
+  - [手动实现webpack打包工具](https://zhuanlan.zhihu.com/p/58151131)
 
 
