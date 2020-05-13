@@ -26,3 +26,4 @@
 - localstorage sessionstorage cookie
 - 事件委托
 - Proxy和Object.defineProperty
+- [判断对象类型的三种方法及优缺点](https://www.jianshu.com/p/b83efe024087)
