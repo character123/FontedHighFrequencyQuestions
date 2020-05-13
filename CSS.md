@@ -7,7 +7,7 @@
 - positon的值，都是根据什么定位（注意下还有sticky）[参考](https://www.jianshu.com/p/a116022c6c99)
   - static  relative  absolute fixed 
   - fixed有兼容性的问题，ie6不支持
-  - relative  absolute float会脱离文档流
+  - relative不会脱离文档流 absolute float会脱离文档流
   - 使用static 定位或无position定位的元素z-index属性是无效的
   - 将窗体自上而下分成一行行, 并在每行中按从左至右的顺序排放元素,即为文档流。
 - 布局知识汇总 [参考](https://www.jianshu.com/p/f1657738b719)
